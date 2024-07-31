@@ -1,4 +1,8 @@
 //index.js
+//Opening event listener to let the user know the get ready!
+window.addEventListener("load", () => {
+    alert("LET'S GET READY TO RUMBBBLLLLLEEE!!");
+})
 
 //variables to manage DOM
 const heroesContainer = document.getElementById("heroes-container");
