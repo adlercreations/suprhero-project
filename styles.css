@@ -47,6 +47,14 @@ h1 {
     margin: 20px;
 }
 
+#hero1 {
+    color: white;
+}
+
+#hero2 {
+    color: white;
+}
+
 #fight-button {
     margin: 20px;
     padding: 10px 20 px;
