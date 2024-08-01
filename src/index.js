@@ -30,13 +30,6 @@ fetch('https://akabab.github.io/superhero-api/api/all.json')
 //Fight button click event Listener
 fightButton.addEventListener("click", handleFight);
 
-// const ranomVar = document.querySelector("#winner")
-// console.log(ranomVar)
-
-// ranomVar.addEventListener("click", () => {
-//     console.log("Hello Superman")
-// })
-
 //filterHeroes function to gather our heroes
 function filterHeroes(data) {
     const heroNames = ["Hulk", "Superman", "Goku", "Silver Surfer", "Spider-Man", "Thor", "Batman", "Wonder Woman", "Deadpool", "Wolverine"];
